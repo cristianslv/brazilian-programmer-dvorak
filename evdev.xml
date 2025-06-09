@@ -1,0 +1,8 @@
+    <layout>
+      <configItem>
+	      <name>bpd</name>
+        <shortDescription>bpd</shortDescription>
+        <description>Brazilian Programmer Dvorak</description>
+      </configItem>
+      <variantList/>
+    </layout>
