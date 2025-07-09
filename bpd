@@ -5,32 +5,32 @@ xkb_symbols "brazilian-programmer-dvorak" {
 
     name[Group1] = "Brazilian Programmer Dvorak";
 
-    key <TLDE> { [ dollar, asciitilde, dead_tilde ] };
+    key <TLDE> { [ dollar, dead_tilde ] };
     key <AE01> { [ plus,         1 ] };
     key <AE02> { [ bracketleft,  2 ] };
     key <AE03> { [ braceleft,    3 ] };
     key <AE04> { [ parenleft,    4 ] };
     key <AE05> { [ ampersand,    5 ] };
-    key <AE06> { [ equal,        6, dead_circumflex ] };
+    key <AE06> { [ equal,        6 ] };
     key <AE07> { [ parenright,   7 ] };
     key <AE08> { [ braceright,   8 ] };
     key <AE09> { [ bracketright, 9 ] };
     key <AE10> { [ asterisk,     0 ] };
     key <AE11> { [ exclam, percent ] };
-    key <AE12> { [ bar, grave ] };
+    key <AE12> { [ bar, dead_grave ] };
 
-    key <AD01> { [ semicolon, colon, ccedilla ] };
-    key <AD02> { [ comma, less, dead_grave ] };
-    key <AD03> { [ period, greater, periodcentered ] };
+    key <AD01> { [ semicolon, colon ] };
+    key <AD02> { [ comma, less ] };
+    key <AD03> { [ period, greater ] };
     key <AD04> { [ p, P ] };
     key <AD05> { [ y, Y ] };
     key <AD06> { [ f, F ] };
     key <AD07> { [ g, G ] };
-    key <AD08> { [ c, C, ccedilla ] };
+    key <AD08> { [ c, C ] };
     key <AD09> { [ r, R ] };
     key <AD10> { [ l, L ] };
     key <AD11> { [ slash, question ] };
-    key <AD12> { [ at, asciicircum ] };
+    key <AD12> { [ at, dead_circumflex ] };
 
     key <AC01> { [ a, A ] };
     key <AC02> { [ o, O ] };
@@ -44,7 +44,7 @@ xkb_symbols "brazilian-programmer-dvorak" {
     key <AC10> { [ s, S ] };
     key <AC11> { [ minus, underscore ] };
 
-    key <AB01> { [ apostrophe, quotedbl, dead_acute ] };
+    key <AB01> { [ dead_acute, quotedbl ] };
     key <AB02> { [ q, Q ] };
     key <AB03> { [ j, J ] };
     key <AB04> { [ k, K ] };
